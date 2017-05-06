@@ -51,4 +51,13 @@
         android:layout_alignLeft="@+id/btnSwitch2"
         android:layout_alignStart="@+id/btnSwitch2" />
 
+    <Button
+        android:id="@+id/btnTst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSwitch1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:text="Toaster" />
+
 </RelativeLayout>
