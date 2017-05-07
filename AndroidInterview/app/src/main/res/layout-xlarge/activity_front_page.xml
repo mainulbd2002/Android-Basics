@@ -11,9 +11,9 @@
 
     <Button
         android:id="@+id/btnSimpleQuestion"
-        android:layout_width="200dp"
-        android:layout_height="45dp"
-        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
         android:textAllCaps="false"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -22,9 +22,9 @@
 
     <Button
         android:id="@+id/btnToughQuestion"
-        android:layout_width="200dp"
-        android:layout_height="45dp"
-        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
         android:textAllCaps="false"
         android:layout_below="@+id/btnSimpleQuestion"
         android:layout_centerHorizontal="true"
@@ -33,9 +33,9 @@
 
     <Button
         android:id="@+id/btnOtherApps"
-        android:layout_width="200dp"
-        android:layout_height="45dp"
-        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
         android:textAllCaps="false"
         android:layout_below="@+id/btnToughQuestion"
         android:layout_centerHorizontal="true"
@@ -44,9 +44,9 @@
 
     <Button
         android:id="@+id/btnRate"
-        android:layout_width="200dp"
-        android:layout_height="45dp"
-        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
         android:textAllCaps="false"
         android:layout_below="@+id/btnOtherApps"
         android:layout_centerHorizontal="true"

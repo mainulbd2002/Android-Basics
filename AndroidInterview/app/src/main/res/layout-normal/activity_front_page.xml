@@ -26,10 +26,11 @@
         android:layout_height="45dp"
         android:textSize="20sp"
         android:textAllCaps="false"
+        android:layout_marginTop="46dp"
+        android:text="@string/tough_question"
         android:layout_below="@+id/btnSimpleQuestion"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="63dp"
-        android:text="@string/tough_question" />
+        android:layout_alignLeft="@+id/btnSimpleQuestion"
+        android:layout_alignStart="@+id/btnSimpleQuestion" />
 
     <Button
         android:id="@+id/btnOtherApps"
@@ -37,10 +38,11 @@
         android:layout_height="45dp"
         android:textSize="20sp"
         android:textAllCaps="false"
+        android:layout_marginTop="50dp"
+        android:text="@string/other_apps"
         android:layout_below="@+id/btnToughQuestion"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="67dp"
-        android:text="@string/other_apps" />
+        android:layout_alignLeft="@+id/btnToughQuestion"
+        android:layout_alignStart="@+id/btnToughQuestion" />
 
     <Button
         android:id="@+id/btnRate"
@@ -48,9 +50,10 @@
         android:layout_height="45dp"
         android:textSize="20sp"
         android:textAllCaps="false"
+        android:layout_marginTop="41dp"
+        android:text="@string/rate_app"
         android:layout_below="@+id/btnOtherApps"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:text="@string/rate_app" />
+        android:layout_alignLeft="@+id/btnOtherApps"
+        android:layout_alignStart="@+id/btnOtherApps" />
 
 </RelativeLayout>
